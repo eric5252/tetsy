@@ -15,6 +15,10 @@
     "npm": "6.13.4"
   },
   "scripts": {
-    "postinstall": "webpack"
+    "postinstall": "webpack",
+    "start": "webpack --watch --mode=development"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.11"
   }
 }
