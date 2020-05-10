@@ -1,4 +1,5 @@
 class Api::UsersController < ApplicationController
+
   before_action :require_login, only: [:show, :update]
 
   def create
@@ -33,9 +34,15 @@ class Api::UsersController < ApplicationController
   private
   def user_params
     params.require(:user).permit(
-      :username,
+      :fname,
       :password, 
-      :email)
+      :email, 
+      :profile_pic, 
+      :gender,
+      :id,
+      :city,
+      :birthday,
+      :about)
   end
 
 end
