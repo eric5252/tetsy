@@ -21,7 +21,7 @@ class SessionForm extends React.Component {
         const demo = Object.assign({}, {
             fname: 'eric',
             email: 'demo@tetsy.com',
-            password: '123456123456'
+            password: '123456'
         });
         this
             .props

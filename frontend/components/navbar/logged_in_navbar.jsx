@@ -34,7 +34,7 @@ class LoggedInNavbar extends React.Component {
             <ul className="navbar-ul">
 
                 <li className="logo-nav">
-                    <a href="/" id="logo"></a>
+                    <a href="/" id="logo">Tetsy</a>
                 </li>
 
                 

@@ -121,7 +121,7 @@ class ProductForm extends React.Component {
                 <option value='58'>Home & Living</option>
                 <option value='59'>Wedding & Party</option>
                 <option value='60'>Toys & Entertainment</option>
-                <option value='61'>Art & Collectibles</option>
+                <option value='61'>Art & Collection</option>
                 <option value='62'>Craft Supplies & Tools</option>
                 <option value='63'>Vintage</option>
             </select>
@@ -135,7 +135,7 @@ class ProductForm extends React.Component {
                 <option value='3'>Home & Living</option>
                 <option value='4'>Wedding & Party</option>
                 <option value='5'>Toys & Entertainment</option>
-                <option value='6'>Art & Collectibles</option>
+                <option value='6'>Art & Collection</option>
                 <option value='7'>Craft Supplies & Tools</option>
                 <option value='8'>Vintage</option>
             </select>

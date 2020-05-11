@@ -7,7 +7,7 @@ const LoggedOutNavbar = (props) => {
         <ul className="logged-out-navbar-ul">
 
             <li className="logo-nav">
-                <a href="/" id="logo"></a>
+               <a href="/" id="logo">Tetsy</a>
             </li>
 
             <SearchProductsFormContainer />

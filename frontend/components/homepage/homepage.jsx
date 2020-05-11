@@ -66,7 +66,7 @@ class HomePage extends React.Component {
         return (
             <div className="homepage">
 
-                <h1>If it's handcrafted, vintage, custom, or unique, it's on Epsy.</h1>
+                <h1>Tetsy : Everything You Are Looking For</h1>
 
                 <div className="homepage-banner">
                     <h1>Personalized jewelry shines a little brighter</h1>
